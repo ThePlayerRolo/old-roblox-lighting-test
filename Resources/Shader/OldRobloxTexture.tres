@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d32lrqhytohte"]
+
+[ext_resource type="Texture2D" uid="uid://b2rvipo164kxg" path="res://Textures/ItemTests/Chessboard.png" id="1_2rgds"]
+
+[resource]
+shading_mode = 2
+albedo_texture = ExtResource("1_2rgds")
+rim_enabled = true
+disable_receive_shadows = true

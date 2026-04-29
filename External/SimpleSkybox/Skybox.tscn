@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c5qnti8vh66n1"]
+
+[ext_resource type="Script" uid="uid://cnmqil2h4myex" path="res://External/SimpleSkybox/Skybox.gd" id="1"]
+
+[node name="Skybox" type="Node3D" unique_id=1708258794]
+script = ExtResource("1")
