@@ -1,0 +1,21 @@
+[gd_resource type="Sky" format=3 uid="uid://dkqiggr2wcrhn"]
+
+[ext_resource type="Shader" uid="uid://c3ea2vefvaelt" path="res://Resources/Sky/6SideShader.gdshader" id="1_cikjh"]
+[ext_resource type="Texture2D" uid="uid://34c2ckaof730" path="res://Textures/default-sky/null_plainsky512_ft.jpg" id="2_sty00"]
+[ext_resource type="Texture2D" uid="uid://bie4bhmvulmyg" path="res://Textures/default-sky/null_plainsky512_bk.jpg" id="2_xfnw2"]
+[ext_resource type="Texture2D" uid="uid://dujvlfbv2pd47" path="res://Textures/default-sky/null_plainsky512_dn.jpg" id="3_s20mf"]
+[ext_resource type="Texture2D" uid="uid://b72k3o7tbmwuy" path="res://Textures/default-sky/null_plainsky512_lf.jpg" id="4_2xwaq"]
+[ext_resource type="Texture2D" uid="uid://5r3nb5m74jtk" path="res://Textures/default-sky/null_plainsky512_rt.jpg" id="6_74vce"]
+[ext_resource type="Texture2D" uid="uid://c2psyhdi8c4g6" path="res://Textures/default-sky/null_plainsky512_up.jpg" id="7_eust1"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sty00"]
+shader = ExtResource("1_cikjh")
+shader_parameter/front = ExtResource("2_sty00")
+shader_parameter/back = ExtResource("2_xfnw2")
+shader_parameter/left = ExtResource("4_2xwaq")
+shader_parameter/right = ExtResource("6_74vce")
+shader_parameter/top = ExtResource("7_eust1")
+shader_parameter/bottom = ExtResource("3_s20mf")
+
+[resource]
+sky_material = SubResource("ShaderMaterial_sty00")

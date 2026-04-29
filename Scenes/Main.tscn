@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://dfihlyrkrnklw"]
+
+[ext_resource type="Sky" uid="uid://dkqiggr2wcrhn" path="res://Resources/Sky/SkyClass.tres" id="1_r150o"]
+[ext_resource type="ArrayMesh" uid="uid://b2kbswtsctird" path="res://Models/Chessboard.obj" id="2_idj7w"]
+[ext_resource type="Texture2D" uid="uid://b2rvipo164kxg" path="res://Textures/ItemTests/Chessboard.png" id="3_kln2b"]
+
+[sub_resource type="Environment" id="Environment_c1w88"]
+background_color = Color(1, 1, 1, 1)
+sky = ExtResource("1_r150o")
+ambient_light_color = Color(0.49803922, 0.49803922, 0.49803922, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_idj7w"]
+shading_mode = 2
+
+[sub_resource type="BoxMesh" id="BoxMesh_r150o"]
+material = SubResource("StandardMaterial3D_idj7w")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kln2b"]
+shading_mode = 2
+albedo_texture = ExtResource("3_kln2b")
+disable_receive_shadows = true
+
+[node name="Node3D" type="Node3D" unique_id=1804395328]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=227408320]
+transform = Transform3D(0.8660234, -0.4340677, 0.24817064, 0.0018289536, 0.4990845, 0.86655134, -0.50000006, -0.7500001, 0.43301275, 0, 0, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1823390945]
+environment = SubResource("Environment_c1w88")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=109305952]
+visible = false
+mesh = SubResource("BoxMesh_r150o")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=674806591]
+transform = Transform3D(-0.9601181, 0.16941358, -0.22242369, 0, 0.7955215, 0.6059254, 0.2795948, 0.5817599, -0.7637946, -1.432312, 2.098137, -3.873993)
+fov = 52.3
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=54221782]
+mesh = ExtResource("2_idj7w")
+surface_material_override/0 = SubResource("StandardMaterial3D_kln2b")
