@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq3k2y2rwedmh"
-path.s3tc="res://.godot/imported/skyspheremap.jpg-945a33955cb2e022c60af876d0ebf90c.s3tc.ctex"
+path="res://.godot/imported/skyspheremap.jpg-945a33955cb2e022c60af876d0ebf90c.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://Textures/default-sky/skyspheremap.jpg"
-dest_files=["res://.godot/imported/skyspheremap.jpg-945a33955cb2e022c60af876d0ebf90c.s3tc.ctex"]
+dest_files=["res://.godot/imported/skyspheremap.jpg-945a33955cb2e022c60af876d0ebf90c.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

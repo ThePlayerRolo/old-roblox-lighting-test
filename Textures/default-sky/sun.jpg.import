@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/sun.jpg-85a78bb8dc4886205509e6564a1550d6.ctex
 
 [params]
 
-compress/mode=0
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/moon-alpha.jpg-8f4b1a9327ae686e2e52e334b14e47
 
 [params]
 
-compress/mode=0
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

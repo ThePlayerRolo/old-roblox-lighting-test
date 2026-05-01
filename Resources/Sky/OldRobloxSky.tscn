@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://5r3nb5m74jtk" path="res://Textures/default-sky/null_plainsky512_rt.jpg" id="7_v0rgh"]
 
 [node name="Skybox" type="Node3D" unique_id=1708258794]
+transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, 0, 0, 0)
 script = ExtResource("1_ck5c8")
 TextureFront = ExtResource("2_ijutp")
 TextureBack = ExtResource("3_rnfdt")

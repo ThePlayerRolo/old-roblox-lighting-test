@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bie4bhmvulmyg"
-path.s3tc="res://.godot/imported/null_plainsky512_bk.jpg-16405be47fff8cad96084ab029c7d0be.s3tc.ctex"
+path="res://.godot/imported/null_plainsky512_bk.jpg-16405be47fff8cad96084ab029c7d0be.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://Textures/default-sky/null_plainsky512_bk.jpg"
-dest_files=["res://.godot/imported/null_plainsky512_bk.jpg-16405be47fff8cad96084ab029c7d0be.s3tc.ctex"]
+dest_files=["res://.godot/imported/null_plainsky512_bk.jpg-16405be47fff8cad96084ab029c7d0be.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://bggxrco28rmna"]
+
+[ext_resource type="PackedScene" uid="uid://uo41efjyh4qv" path="res://Scenes/Part.tscn" id="2_jhryg"]
+[ext_resource type="PackedScene" uid="uid://dv8v4rv4i0yey" path="res://Resources/Sky/OldRobloxSky.tscn" id="4_6g6qr"]
+
+[sub_resource type="Environment" id="Environment_c1w88"]
+ambient_light_source = 2
+ambient_light_color = Color(0.49803922, 0.49803922, 0.49803922, 1)
+ssao_radius = 16.0
+ssao_intensity = 12.55
+
+[node name="Node3D" type="Node3D" unique_id=1804395328]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=227408320]
+transform = Transform3D(-0.5241922, 0.7384345, -0.42419004, 0.0018289605, 0.4990844, 0.8665514, 0.85159796, 0.45346385, -0.26296657, 0, 0, 0)
+light_color = Color(0.50140655, 0.5014065, 0.5014065, 1)
+light_specular = 9.814
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1823390945]
+environment = SubResource("Environment_c1w88")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=674806591]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4539184, 0.6752982, 2.190898)
+fov = 52.3
+
+[node name="Skybox" parent="." unique_id=1708258794 instance=ExtResource("4_6g6qr")]
+transform = Transform3D(500, 0, 0, 0, 500, 0, 0, 0, 500, 9.017521, 0, -2.5021098)
+
+[node name="Part" parent="." unique_id=1075228350 instance=ExtResource("2_jhryg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.021)
+
+[editable path="Part"]

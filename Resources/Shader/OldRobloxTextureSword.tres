@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bpij4k1int4ut"]
+
+[ext_resource type="Texture2D" uid="uid://6oyxcyvroysd" path="res://Textures/ItemTests/SwordTexture.png" id="1_th8ll"]
+
+[resource]
+cull_mode = 1
+shading_mode = 2
+albedo_texture = ExtResource("1_th8ll")
+rim_enabled = true
+disable_receive_shadows = true

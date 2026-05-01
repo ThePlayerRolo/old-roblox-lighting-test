@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/sun-rays.jpg-10c62dd2172b621040dd3fd1bf662e1c
 
 [params]
 
-compress/mode=0
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
